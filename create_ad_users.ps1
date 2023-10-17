@@ -1,5 +1,5 @@
 ﻿# location of AD users file
-$file = "C:\Users\Delkiv\Documents\adusers.csv"
+$file = "C:\Users\Administrator\Documents\win-skriptimine\adusers.csv"
 # import file content
 $users = Import-Csv $file -Encoding Default -Delimiter ";"
 # foreach user in data row in file

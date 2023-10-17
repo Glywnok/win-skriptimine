@@ -1,5 +1,5 @@
 ﻿#maarame, kus on asumas fail mille sees on kasutajate andmed
-$File = "C:\Users\Delkiv\Documents\win-skriptimine\kasutajad\kasutajad.csv"
+$File = "C:\Users\Administrator\Documents\win-skriptimine\kasutajad\kasutajad.csv"
 #loeme failist sisu,info jaotakse ;  jargi
 $kasutajad = Import-Csv $File -Encoding Default -Delimiter ";"
 #failis iga kasutaja andmestik on eraldi reas
